@@ -1,27 +1,38 @@
 # SQL Sales Analysis Project
 
 ## Overview
-This project demonstrates fundamental SQL skills including data extraction, joins, aggregation, and analysis using a simple sales dataset.
+This project demonstrates fundamental SQL skills by analyzing a simple sales dataset.
 
-## Key Skills Demonstrated
+## Objective
+The goal is to extract meaningful insights from sales data using SQL queries.
+
+## Dataset
+Two tables were created:
+- customers (customer details)
+- orders (transaction data)
+
+## Key SQL Skills Demonstrated
 - SELECT statements
 - INNER JOIN (combining multiple tables)
 - GROUP BY (data aggregation)
 - ORDER BY (sorting results)
-- SUM aggregation function
+- SUM function for total calculations
 
-## Project Description
-Two tables (customers and orders) were created and populated with sample data. SQL queries were then used to:
+## Analysis Performed
 
-- Combine datasets using JOIN
-- Analyze total sales by region
-- Calculate and rank customer spending
+### 1. Transaction Details
+Used JOIN to combine customer and order data.
 
-## Sample Outputs
-The project includes query outputs showing:
-- Transaction details
-- Sales performance by region
-- Customer spending ranking
+### 2. Sales by Region
+Calculated total sales for each region to identify top-performing areas.
+
+### 3. Customer Spending
+Analyzed total spending per customer and ranked them.
+
+## Key Insights
+- KL generated the highest total sales
+- Ali is the top spending customer
+- Sales distribution varies by region
 
 ## Tools Used
-- SQL (SQLite)
+- SQL (SQLite Online)
